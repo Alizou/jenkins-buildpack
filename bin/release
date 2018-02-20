@@ -4,5 +4,5 @@ cat << EOF
 addons: []
 config_vars: []
 default_process_types:
-  web: java -jar jenkins.war --httpsPort=\$PORT -Dtrust_all_cert=true
+  web: java -jar jenkins.war --httpsPort=16774 -Dtrust_all_cert=true
 EOF
